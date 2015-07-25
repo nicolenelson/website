@@ -1,22 +1,18 @@
 body{
-  background-color: #FAFAD2;
+  height: 2000px;
 }
 
-clearfix:after {
-    display:block;
-    clear:both;
-}
+.image_box{
+  position: relative;
+   height: 600px;
+   background-image: url(cityscape-blur.jpg);
+   background-size: auto 600px;
+   background-attachment: fixed;
 
-div span{
-  font-family: Impact;
-  font-size: 60px;
-  padding-left: 20px;
-  padding-right: 30px;
-  font-size: 40px;"
 }
 
 .heading_box{
-  display: flex;
+  position: absolute;
   width: 600px;
   background-color: #CCCCCC;
   border-radius: 20px;
@@ -25,26 +21,17 @@ div span{
   justify-content: center;
   padding-bottom: 20px;
   padding-top: 20px;
+  top: 400;
+  margin-left: 40px;
 }
 
-li{
-  list-style-type: none;
-  font-family: Verdana;
-  font-size: 24px;
-  text-align: right;
+.content{
+  margin-top: 50px;
 }
 
-ul{
-  float: right;
-  margin-right: 100px;
-}
-
-a:hover{
-  color: #666666;
+.projects_title{
+  font-family: 'Josefin Sans', sans-serif; 
   font-size: 26px;
+  padding-top: 50px;
 }
 
-nav ul li a{
-  text-decoration: none;
-  color: black;
-}
