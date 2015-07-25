@@ -25,6 +25,15 @@ body{
   margin-left: 40px;
 }
 
+.gas_mask{
+  position: absolute;
+  height: 200px;
+  background-image: url(gas-mask.png);
+  right: 0px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
 .content{
   margin-top: 50px;
 }
