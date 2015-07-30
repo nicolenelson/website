@@ -5,7 +5,7 @@ body{
 .image_box{
   position: relative;
    height: 600px;
-   background-image: url(/stylesheets/cityscape-blur.jpg);
+   background-image: url(cityscape-blur.jpg);
    background-size: auto 600px;
    background-attachment: fixed;
 
@@ -29,6 +29,7 @@ body{
 .gas_mask{
   position: absolute;
   height: 200px;
+  background-image: url(gas-mask.png);
   right: 0px;
   margin-top: 50px;
   margin-right: 20px;
@@ -45,6 +46,3 @@ body{
   padding-top: 50px;
 }
 
-.heading_box:hover{
-  box-shadow: 12px 10px 7px #999999;
-}
