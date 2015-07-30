@@ -1,8 +1,3 @@
-
-
-$(window).ready(function(){
-
-  $('.heading_box').mouseenter(function(){
-    $('.heading_box').hide();
-  });
+$( ".heading_box" ).on( "mouseover", function() {
+  $( ".heading_box" ).css( "background-color", "red" );
 });

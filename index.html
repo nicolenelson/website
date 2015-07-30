@@ -2,12 +2,14 @@
 
 <head>
 	<meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="/website/stylesheets/index.css">
+  <!--<link rel="stylesheet" type="text/css" href="/website/stylesheets/index.css">-->
   <link href='http://fonts.googleapis.com/css?family=Dosis:400,500|Pacifico|Josefin+Sans' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="javascripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="/website/javascripts/jquery-2.1.4.min.js"></script>
   
-  <!--referencing the javascript document while avoiding caching problem-->
-  <script>document.write('<script src="javascripts/functions.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+  <!--referencing the javascript document while avoiding caching problem on local server-->
+  <script>document.write('<script src="/website/javascripts/functions.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+  <!--referencing the css document while avoiding caching problem on local server-->
+  <link rel="stylesheet" type="text/css" href="/website/stylesheets/index.css?<?php echo time(); ?>" />
 
 </head>
 
@@ -21,19 +23,19 @@
     <span style="font-family: 'Dosis', sans-serif; font-size: 40px; margin-right: 20px; margin-left: 20px;">NICOLE NELSON</span><i style=" font-family: 'Pacifico', cursive; font-size: 24px;  margin-bottom: 8px;"> web developer</i>
   </div>
 
-  <div class="gas_mask"><img src="/website/stylesheets/gas-mask.png" style="float: left;" /></div>
+  <div class="gas_mask"><img src="/website/stylesheets/gas-mask.png" style="float: left; height: 150px;" /></div>
 
 </div>
 
 <br>
 
-<!--CONTENT-->
-<div class="content">
+<!--ABOUT-->
   
-  <center><span class="projects_title">Projects</span></center>
+  <div class="about_paragraph">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+  </div>
 
-
-</div>
+  <div class="about_image"><img src="/website/stylesheets/avatar-placeholder.jpg" /></div>
   
   
 
