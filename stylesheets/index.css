@@ -11,7 +11,7 @@ body{
    background-size: cover;
 }
 
-.heading_box{
+#heading_box{
   position: absolute;
   width: 600px;
   background-color: #CCCCCC;
@@ -26,7 +26,7 @@ body{
 
 }
 
-.gas_mask{
+#gas_mask{
   position: absolute;
   height: 130px;
   right: 0px;
@@ -35,17 +35,7 @@ body{
   opacity: 0.7;
 }
 
-.content{
-  margin-top: 50px;
-}
-
-.projects_title{
-  font-family: 'Josefin Sans', sans-serif; 
-  font-size: 26px;
-  padding-top: 50px;
-}
-
-.about_paragraph{
+#about_paragraph{
   float: left;
   width: 400px;
   text-align: center;
@@ -53,9 +43,13 @@ body{
   font-size: 22px;
 }
 
-.about_image{
+#about_image{
   float: right;
   width: 300px;
   margin: 220px 150px 0 0;
+}
+
+#applicant_form{
+  width=100%;
 }
 
