@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
   <!--<link rel="stylesheet" type="text/css" href="/website/stylesheets/index.css">-->
-  <link href='http://fonts.googleapis.com/css?family=Dosis:400,500|Pacifico|Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:400,500|Pacifico|Josefin+Sans|Montserrat' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="/website/javascripts/jquery-2.1.4.min.js"></script>
   
   <!--referencing the javascript document while avoiding caching problem on local server-->
@@ -38,11 +38,11 @@
 
   <div id="about_image"><img src="/website/stylesheets/avatar-placeholder.jpg" /></div>
 </div>
-<div> 
+<div style="margin-left: 21%"> 
   <form id="applicant_form">
-      <span>Name</span><input type="text" name="name" id="applicants_name"/><br>
-      <span>Projected Amount</span><input type="text" name="applicants_amount" id="applicants_amount" /><br>
-      <span>About Project</span><input type="text" name="about" id="applicants_about" />
+      <div style="display: flex; justify-content: flex-start;"><span class="form_titles">Name</span><input type="text" name="name" id="applicants_name" /></div><br>
+      <div style="display: flex; justify-content: flex-start;"><span class="form_titles">Projected Budget</span><input type="text" name="applicants_amount" id="applicants_amount" placeholder="  $0.00"/></div><br>
+      <div style="display: flex; justify-content: flex-start;"><span class="form_titles">About Project</span><textarea name="about" form="applicant_form" id="applicants_about" placeholder="Tell me a bit about your project idea..."></textarea></div>
 
   </form>
 </div>
