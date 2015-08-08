@@ -43,7 +43,7 @@ body{
   float: left;
   width: 400px;
   text-align: center;
-  margin: 220px 0 0 150px;
+  margin: 300px 0 0 150px;
   font-size: 22px;
   font-family: Dosis;
 }
@@ -51,13 +51,24 @@ body{
 #about_image{
   float: right;
   width: 300px;
-  margin: 220px 150px 0 0;
+  margin: 300px 150px 0 0;
+}
+
+/**************social media nav bar**************/
+.social_media_bar{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social_media_logos{
+  display: inline-block;
+  width: 40px;
 }
 
 /**************APPLICANTS FORM***************/
 #applicant_form{
   position: absolute;
-  top: 1200px;
+  top: 1400px;
 }
 
 /*************form titles******************/
@@ -73,6 +84,15 @@ body{
   border: 2px solid #2d2c2c;
   border-radius: 5px;
   margin-left: 150px;
+}
+
+#applicants_email{
+  background-color: #b6b4b4;
+  width: 300px;
+  margin-bottom: 10px;
+  border: 2px solid #2d2c2c;
+  border-radius: 5px;
+  margin-left: 155px;
 }
 
 #applicants_amount{
@@ -95,6 +115,12 @@ body{
 
 /**************styling input text***************/
 input[name="name"]{
+  color: #1e1d1d;
+   font-family: Montserrat;
+   font-size: 14px;
+}
+
+input[name="email"]{
   color: #1e1d1d;
    font-family: Montserrat;
    font-size: 14px;
